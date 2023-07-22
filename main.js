@@ -1,9 +1,9 @@
-var arr=prompt("Enter a array length");
+var arr=parseInt(prompt("Enter a array length"));
 var a=[];
 var b=[];
 var temp;
 for(let i=0;i<arr;i++){
-	a[i]=prompt("Enter a "+(i+1)+"value");
+	a[i]=parseInt(prompt("Enter a "+(i+1)+"value"));
 }
 document.write("a="+a+"<br>");
  
